@@ -1,8 +1,12 @@
-
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 class Solution:
-    def getDecimalValue(self, head: ) -> int:
-        bin_num = ''
+    def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        List = []
         while head:
-            bin_num += str(head.val)
+            List.append(head)
             head = head.next
-        return int(bin_num, 2)
+        return List[len(List)//2]

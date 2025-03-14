@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def getDecimalValue(self, head:) -> int:
+    def getDecimalValue(self, head) -> int:
         bin_num = ''
         while head:
             bin_num += str(head.val)
