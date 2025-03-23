@@ -4,6 +4,7 @@ class Solution:
         more = []
         same = []
 
+
         for i in nums:
             if i > pivot:
                 more.append(i)
